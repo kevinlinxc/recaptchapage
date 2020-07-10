@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
         <title>Did we win yet</title>
         <style type="text/css">
             #g-recaptcha{
                 position: fixed;
-                width: 70px;
-                height: 70px;
-                border-radius: 100%;
-                background-color:black;
-                box-shadow: 0 0 10px 10px black;
-                top: 49%;
-                left: 48.85%;
+                data-sitekey="6LeoDLAZAAAAADZkFfbPDSSpiWGqhAspZAD3-8uw";
+                class="g-recaptcha"
             }
         </style>
         <script type="text/javascript">
@@ -32,6 +28,6 @@
     </head>
     <body>
         <h1> yes1</h1>
-        <div class="g-recaptcha" data-sitekey="6LeoDLAZAAAAADZkFfbPDSSpiWGqhAspZAD3-8uw"></div>
+        <div id="g-recaptcha"></div>
     </body>
 </html>
