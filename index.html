@@ -21,14 +21,14 @@
                     if ( typeof x !== 'undefined' ){
                         bsDiv.style.left = x + "px";
                         bsDiv.style.top = y + "px";
-                        bsDiv.dispatchEvent(new MouseEvent('click'))
+                        bsDiv.click();
                     }
                 }, false);
             }
         </script>
     </head>
     <body>
-        <h1> yes10</h1>
-        <div class="g-recaptcha" id="g-recaptcha" data-sitekey="6LeoDLAZAAAAADZkFfbPDSSpiWGqhAspZAD3-8uw" </div>
+        <h1> yes11</h1>
+        <div class="g-recaptcha" id="g-recaptcha" data-sitekey="6LeoDLAZAAAAADZkFfbPDSSpiWGqhAspZAD3-8uw"  style="cursor: pointer;" </div>
     </body>
 </html>
