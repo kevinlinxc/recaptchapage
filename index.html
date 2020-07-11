@@ -21,14 +21,14 @@
                     if ( typeof x !== 'undefined' ){
                         bsDiv.style.left = x + "px";
                         bsDiv.style.top = y + "px";
-                        grecaptcha.execute();
+                        document.elementFromPoint(x, y).click();
                     }
                 }, false);
             }
         </script>
     </head>
     <body>
-        <h1> yes7</h1>
+        <h1> yes8</h1>
         <div class="g-recaptcha" id="g-recaptcha" data-sitekey="6LeoDLAZAAAAADZkFfbPDSSpiWGqhAspZAD3-8uw" </div>
     </body>
 </html>
